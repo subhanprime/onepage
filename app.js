@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 // Route: About Page
 app.get("/about", (req, res) => {
   res.send(
-    "<h1>About Page</h1><p>This is a simple Node.js application built with Express.</p>"
+    "<h1>About second Page</h1><p>This is a simple Node.js application built with Express.</p>"
   );
 });
 app.get("/home", (req, res) => {
